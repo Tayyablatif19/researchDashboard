@@ -19,7 +19,7 @@ export const Hero = () => {
           className="flex flex-col items-start text-left"
         >
           <p className="text-xs font-bold tracking-[0.2em] text-indigo-600 uppercase mb-4 py-1 flex items-center gap-3">
-            <span className="w-8 h-[1px] bg-indigo-600"></span>
+            <span className="w-8 h-px bg-indigo-600"></span>
             Accounting and Finance Research Portfolio / {researchData.year}
           </p>
           

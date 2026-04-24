@@ -1,7 +1,7 @@
+import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { researchData } from '../data/researchData';
 import { User, Tag, ChevronRight, ClipboardCheck } from 'lucide-react';
-import { useState } from 'react';
 
 export const CaseStudies = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -18,7 +18,7 @@ export const CaseStudies = () => {
             </h3>
           </div>
           <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-[0.2em]">
-            <span className="w-8 h-[1px] bg-slate-200"></span>
+            <span className="w-8 h-px bg-slate-200"></span>
             Observation Archive
           </div>
         </div>
@@ -70,7 +70,7 @@ export const CaseStudies = () => {
               key={activeTab}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="bg-white border border-slate-200 p-8 md:p-12 shadow-sm rounded-sm flex-grow flex flex-col relative"
+              className="bg-white border border-slate-200 p-8 md:p-12 shadow-sm rounded-sm grow flex flex-col relative"
             >
               <div className="flex flex-wrap items-center justify-between gap-3 mb-10 border-b border-slate-50 pb-8">
                 <div className="flex items-center gap-3">
@@ -80,7 +80,7 @@ export const CaseStudies = () => {
                 <div className="text-[10px] text-slate-300 font-mono tracking-tighter">TIMESTAMP: 2026.Q1.ARCHV</div>
               </div>
 
-              <div className="flex-grow border-2 border-dashed border-slate-50 p-8 relative overflow-hidden bg-slate-50/20">
+              <div className="grow border-2 border-dashed border-slate-50 p-8 relative overflow-hidden bg-slate-50/20">
                 <p className="text-xl md:text-2xl font-serif font-bold italic text-slate-700 leading-relaxed max-w-2xl group relative z-10">
                   "{researchData.participants.patients[activeTab].story}"
                 </p>

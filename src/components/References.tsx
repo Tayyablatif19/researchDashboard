@@ -31,9 +31,9 @@ export const References = () => {
         <div className="flex flex-col items-center text-center gap-3 max-w-xl">
           <p className="uppercase tracking-[0.4em] font-bold text-slate-200">Department of Accounting and Finance</p>
           <div className="flex items-center gap-4">
-             <div className="h-[1px] w-8 bg-slate-800"></div>
+             <div className="h-px w-8 bg-slate-800"></div>
              <p className="uppercase tracking-[0.2em] font-medium text-slate-500">MUST Business School, Islamabad</p>
-             <div className="h-[1px] w-8 bg-slate-800"></div>
+             <div className="h-px w-8 bg-slate-800"></div>
           </div>
         </div>
 

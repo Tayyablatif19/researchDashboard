@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'motion/react';
 import { Search, Users, ClipboardCheck, MessageCircle } from 'lucide-react';
 
@@ -28,7 +29,7 @@ export const Methodology = () => {
   return (
     <section className="py-24 bg-indigo-900 text-white px-4 overflow-hidden relative">
       <div className="absolute right-0 top-0 opacity-10 pointer-events-none">
-         <div className="w-96 h-96 border-[40px] border-white/20 rounded-full -mr-48 -mt-48" />
+         <div className="w-96 h-96 border-40 border-white/20 rounded-full -mr-48 -mt-48" />
       </div>
       
       <div className="max-w-6xl mx-auto relative z-10">

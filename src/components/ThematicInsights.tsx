@@ -35,7 +35,7 @@ export const ThematicInsights = () => {
               <div className="mb-6">
                 <h4 className="font-serif font-bold text-2xl text-slate-800 mb-2">{theme.title}</h4>
                 <p className="text-xs text-slate-500 font-medium leading-relaxed uppercase tracking-wider mb-6">Insight Node {idx + 1}</p>
-                <p className="text-sm text-slate-600 leading-relaxed font-sans min-h-[3rem]">
+                <p className="text-sm text-slate-600 leading-relaxed font-sans min-h-12">
                   {theme.description}
                 </p>
               </div>
