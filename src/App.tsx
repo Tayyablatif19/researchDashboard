@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import React from 'react';
 import { Hero } from './components/Hero';
 import { Overview } from './components/Overview';
 import { Methodology } from './components/Methodology';
@@ -23,7 +24,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-50 font-sans selection:bg-indigo-600 selection:text-white">
       {/* Progress Bar */}
       <motion.div
-        className="fixed top-0 left-0 right-0 h-0.5 bg-indigo-600 z-[100] transform-origin-0"
+        className="fixed top-0 left-0 right-0 h-0.5 bg-indigo-600 z-100 transform-origin-0"
         style={{ scaleX }}
       />
 
