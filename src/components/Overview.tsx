@@ -65,7 +65,7 @@ export const Overview = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="bg-white p-8 border border-slate-200 shadow-sm">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6 border-b border-slate-100 pb-4">Composition Distribution</h3>
-            <div className="h-[250px]">
+            <div className="h-62.5">
               <ResponsiveContainer width="100%" height="100%">
                 <PieChart>
                   <Pie
@@ -92,7 +92,7 @@ export const Overview = () => {
 
           <div className="bg-white p-8 border border-slate-200 shadow-sm text-slate-800">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-6 border-b border-slate-100 pb-4">Gender Demographics</h3>
-            <div className="h-[250px]">
+            <div className="h-62.5">
               <ResponsiveContainer width="100%" height="100%">
                 <ReBarChart data={genderData} layout="vertical" margin={{ left: 10, right: 30 }}>
                   <XAxis type="number" hide />

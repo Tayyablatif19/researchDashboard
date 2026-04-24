@@ -38,7 +38,7 @@ export const CaseStudies = () => {
           {/* Navigation Sidebar */}
           <div className="lg:col-span-4 space-y-3">
             <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-6 border-b border-slate-200 pb-2">Participant Registry</h4>
-            <div className="max-h-[600px] overflow-y-auto pr-4 space-y-3 scrollbar-thin scrollbar-thumb-slate-200">
+            <div className="max-h-150 overflow-y-auto pr-4 space-y-3 scrollbar-thin scrollbar-thumb-slate-200">
               {researchData.participants.patients.map((patient, idx) => (
                 <button
                   key={idx}
